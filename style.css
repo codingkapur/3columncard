@@ -1,31 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&family=Lexend+Deca&display=swap');
-/*
-Bright orange: hsl(31, 77%, 52%)
-Dark cyan: hsl(184, 100%, 22%)
-Very dark cyan: hsl(179, 100%, 13%)
 
-### Neutral
-
-Transparent white (paragraphs): hsla(0, 0%, 100%, 0.75)
-Very light gray (background, headings, buttons): hsl(0, 0%, 95%)
-
-## Typography
-
-### Body Copy
-
-- Font size: 15px
-
-### Font
-
-- Family: [Lexend Deca](https://fonts.google.com/specimen/Lexend+Deca)
-- Weights: 400
-
-- Family: [Big Shoulders Display](https://fonts.google.com/specimen/Big+Shoulders+Display)
-- Weights: 700 
-
-font-family: 'Big Shoulders Display', cursive;
-font-family: 'Lexend Deca', sans-serif;
-*/
 * {
     margin: 0;
     padding: 0;
@@ -43,9 +17,9 @@ body {
     display: grid;
     grid-template-columns:1fr 1fr 1fr;
     grid-template-rows: auto;
-    width: 70%;
+    width: 65%;
     max-width: 1080px;
-    border-radius: 4px;
+    border-radius: 10px;
     overflow: hidden;
 }
 .preview-card__container {
@@ -123,7 +97,7 @@ body {
         width: 95%;
         grid-template-columns: 1fr;
         grid-template-rows: 1fr 1fr 1fr;
-        border-radius: 5px;
+        border-radius: 10px;
     }
 
     .preview-card-sedans {
